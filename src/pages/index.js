@@ -11,11 +11,10 @@ const IndexPage = () => (
     <h1>Olá</h1>
     <p>Bem vindo ao novo site da <em>"Perfect Amassados"</em>.</p>
     <p>Ainda em desenvolvimeneto.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div style={{ maxWidth: `450px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
       <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 
